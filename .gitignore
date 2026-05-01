@@ -1,0 +1,25 @@
+# Bağımlılıklar
+node_modules/
+
+# Build çıktısı
+dist/
+
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+.DS_Store
+Thumbs.db
+
+# Bundle analyzer raporu
+stats.json
+
+*.tsbuildinfo

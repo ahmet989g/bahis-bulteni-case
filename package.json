@@ -1,0 +1,43 @@
+{
+  "name": "bahis-bulteni-case",
+  "version": "1.0.0",
+  "description": "Bahis bülteni ve iddia uygulaması.",
+  "scripts": {
+    "start": "webpack serve",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.11.2",
+    "@tanstack/react-table": "^8.21.3",
+    "@tanstack/react-virtual": "^3.13.24",
+    "core-js": "^3.49.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-redux": "^9.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.3",
+    "@babel/preset-react": "^7.28.5",
+    "@babel/preset-typescript": "^7.28.5",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.0",
+    "babel-loader": "^9.2.1",
+    "compression-webpack-plugin": "^11.1.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^7.1.4",
+    "css-minimizer-webpack-plugin": "^7.0.4",
+    "html-webpack-plugin": "^5.6.7",
+    "mini-css-extract-plugin": "^2.10.2",
+    "postcss": "^8.5.12",
+    "postcss-loader": "^8.2.1",
+    "style-loader": "^4.0.0",
+    "terser-webpack-plugin": "^5.5.0",
+    "typescript": "^5.9.3",
+    "webpack": "^5.106.2",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.3"
+  }
+}
