@@ -1,0 +1,1 @@
+export const API_URL = "https://nesine-case-study.onrender.com/bets";

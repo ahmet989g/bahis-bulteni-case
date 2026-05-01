@@ -1,7 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
+import bulletinReducer from "../bulletin/store/bulletinSlice";
 
 export const store = configureStore({
-  reducer: {},
+  reducer: {
+    bulletin: bulletinReducer,
+  },
 });
 
 export type RootState = ReturnType<typeof store.getState>;
