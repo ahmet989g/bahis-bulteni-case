@@ -4,6 +4,7 @@
   "description": "Bahis bülteni ve iddia uygulaması.",
   "scripts": {
     "start": "webpack serve",
+    "build": "webpack --mode production",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
