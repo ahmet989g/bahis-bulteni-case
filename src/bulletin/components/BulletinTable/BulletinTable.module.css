@@ -1,0 +1,18 @@
+.container {
+  height: 100vh;
+  overflow: auto;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table {
+  border-collapse: collapse;
+  font-family: var(--font-family);
+  min-width: 960px;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.colMatch { width: 220px; }
+.colMid   { width: 70px;  }
+.colOdd   { width: 58px;  }

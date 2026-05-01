@@ -1,8 +1,10 @@
+import BulletinContainer from "./bulletin/components/BulletinContainer";
+
 export default function App() {
   return (
     <div className="app">
       <main>
-        <div>Bülten</div>
+        <BulletinContainer />
       </main>
     </div>
   );
